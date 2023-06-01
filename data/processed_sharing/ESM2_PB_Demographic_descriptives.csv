@@ -1,0 +1,14 @@
+skim_variable,numeric.mean,numeric.p50,numeric.sd,numeric.p0,numeric.p100
+age,37.8,37.5,8.61,15,55
+num_kids,2.28,2,1.13,1,5
+num_kids_house,2.1,2,0.9,1,4
+years_w_spouse,11.33,11,6.04,2,25
+years_of_study,10.28,10,2.61,0,16
+PBA_Exh,32.1,33,12.19,8,54
+PBA_Dist,7.82,8,5.13,0,18
+PBA_FedUp,14.38,13,8.15,2,30
+PBA_Con,15.25,13.5,10.01,0,33
+PBA_total,69.55,64.5,31.81,14,132
+GAD,10.3,10,5.18,1,21
+BR2,8.18,6.5,48.89,-91,105
+BDI,19.98,18,10.17,5,48
