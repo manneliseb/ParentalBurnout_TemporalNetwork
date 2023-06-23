@@ -170,9 +170,9 @@ for(i in 1:200){ # generating 200 networks
 )}
 
 # Save R objects
-# readr::write_rds(c_strength, here::here("output", "R_Objects", "stability_c_strength.rds"))
-# readr::write_rds(t_in_strength, here::here("output", "R_Objects", "stability_t_in_strength.rds"))
-# readr::write_rds(t_out_strength, here::here("output", "R_Objects", "stability_t_out_strength.rds"))
+# readr::write_rds(c_strength, here::here("output", "R_Objects", "stability_c_strength_199.rds"))
+# readr::write_rds(t_in_strength, here::here("output", "R_Objects", "stability_t_in_strength_199.rds"))
+# readr::write_rds(t_out_strength, here::here("output", "R_Objects", "stability_t_out_strength_199.rds"))
 # readr::write_rds(bs_strength, here::here("output", "R_Objects", "stability_bs_strength_199"))
 
 # Read
@@ -180,13 +180,6 @@ c_strength <- readr::read_rds(here::here("output", "R_Objects", "stability_c_str
 t_in_strength <- readr::read_rds(here::here("output", "R_Objects", "stability_t_in_strength_199.rds"))
 t_out_strength <- readr::read_rds(here::here("output", "R_Objects", "stability_t_out_strength_199.rds"))
 bs_strength <- readr::read_rds(here::here("output", "R_Objects", "stability_bs_strength_199.rds"))
-
-
-# (If looking at code later & just want to read in R objects):
-# c_strength <- readr::read_rds(here::here("output", "R_Objects", "stability_c_strength.rds"))
-# t_in_strength <- readr::read_rds(here::here("output", "R_Objects", "stability_t_in_strength.rds"))
-# t_out_strength <- readr::read_rds(here::here("output", "R_Objects", "stability_t_out_strength.rds"))
-# bs_strength <- readr::read_rds(here::here("output", "R_Objects", "stability_bs_strength.rds"))
 
 
 # Original network visualizations (for full sample):
