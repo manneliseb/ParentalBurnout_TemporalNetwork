@@ -26,7 +26,7 @@ library(ggbeeswarm) # For jitter in variance (fixed vs random effects) boxplot f
 ESM_clean <- readr::read_csv(here::here("data", "processed_sharing", "ESM2_PB_clean_anon.csv"))
 
 # Importing gender info
-sample_gender <- readr::read_csv(here::here("data", "processed_sharing", "ESM2_PB_gender"))
+sample_gender <- readr::read_csv(here::here("data", "processed_sharing", "ESM2_PB_gender.csv"))
 
 # Importing PBA scores with participant IDs (not sharing data on OSF)
 ID_PBA <- readr::read_csv(here::here("data", "processed", "ESM2_PB_Demographic_questionnaires.csv")) %>%
